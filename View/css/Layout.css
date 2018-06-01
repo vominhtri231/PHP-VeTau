@@ -1,0 +1,149 @@
+body { 
+	background: url(../images/background3.jpg) top left;
+	
+}
+#contain{
+ 	width:800px;
+	background-color:#675c47;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+#contain-header{
+  	height:100px;
+  	
+}
+#menu-header{
+	height:50px;
+	text-align:center;
+	margin:0px;
+	font-size:30px;
+}
+
+.header{
+	background-color: #675c47;
+	margin:10px;
+	color:#FFF ;
+}
+#headerIma{
+	margin-left:100px;
+	
+}
+#main{
+	background: url(../images/background.gif)  ;
+	height:100%;
+}
+#menu{
+	position:fixed;
+	top:30%;
+	left:30px;
+	height:200px;
+	width:180px;
+	background:url(../images/background.gif)  top left ;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	line-height: 20px;
+}
+a{
+	text-decoration: none;
+}
+
+#menu a{
+	color:#4f2bc6;
+}
+
+.header a{
+	color:#00D8D6;
+}
+
+#main a:hover, a:active {
+    
+}
+
+ul{
+	list-style-type: none;
+}
+
+#account{
+	position: absolute;
+	top: 90px;
+	right: 30%;
+}
+
+#wellcome{
+	display: inline;
+	padding-right:60px;
+}
+
+table,td,th
+		{
+			border:groove black 2px;
+			 border: 3px solid #ddd;
+   			 padding: 8px;
+		}
+		
+table
+{
+	border-collapse: collapse;
+}
+td
+{
+	text-align: center;
+}
+
+#main #tableGa #sv{
+			top:50px;
+			left: 0px;
+			width: 100%;
+			margin-top: 10px;
+		}
+#main #tableGa #sv a:link, a:visited {
+    background-color: #C3C3C3;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#main #addBT{
+	padding-left: 670px;
+}
+#main #addBT a{
+	background: #FF884F;
+	color:#800000 ;
+	 padding: 8px 20px;
+}
+#main a:hover, a:active {
+    /*background-color: green;*/
+}
+.a1{
+	padding-left:7px;
+	width: 230px;
+	height:30px;
+	margin-bottom:15px;
+	margin-left: 20px;
+}
+.a2{
+	margin-top: 10px;
+	margin-left: 18px;
+	background-color: #144879;
+	width: 100px;
+	height: 30px;
+	color: white;
+	border: none;
+	border-radius: 7px;
+}
+#title{
+	margin: 5px;
+	width:170px;
+ 	display: inline-block;
+}
+.menuItem{
+	font-size: 15px;
+	text-align: right;
+	padding: 5px;	
+	margin: 5px;
+	padding-right: 40px;
+
+}
